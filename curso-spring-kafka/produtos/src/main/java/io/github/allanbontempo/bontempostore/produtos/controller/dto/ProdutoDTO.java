@@ -2,9 +2,8 @@ package io.github.allanbontempo.bontempostore.produtos.controller.dto;
 
 import java.math.BigDecimal;
 
-public record NovoProdutoDTO(
+public record ProdutoDTO(
         String nome,
-        String descricao,
         BigDecimal valorUnitario
 ) {
 }
