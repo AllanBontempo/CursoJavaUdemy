@@ -1,6 +1,6 @@
 package io.github.allanbontempo.bontempostore.clientes.controller.dto;
 
-public record CriarClienteDTO(
+public record ClienteDTO(
         String nome,
         String cpf,
         String logradouro,
